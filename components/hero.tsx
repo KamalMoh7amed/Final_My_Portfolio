@@ -7,11 +7,11 @@ import { Github, Linkedin, Mail, ArrowDown } from "lucide-react"
 import MagneticButton from "./magnetic-button"
 import TiltCard from "./tilt-card"
 
-const stats = [
-  { value: "+5", label: "Technologies Mastered" },
-  { value: "+2", label: "Major Projects" },
-  { value: "2nd", label: "Place Award" },
-]
+// const stats = [
+//   { value: "+5", label: "Technologies Mastered" },
+//   { value: "+2", label: "Major Projects" },
+//   { value: "2nd", label: "Place Award" },
+// ]
 
 const roles = [".NET Backend Engineering","Deploma Full Stack IN DEPI"]
 
@@ -152,8 +152,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.75 }}
             className="mt-6 max-w-lg text-base leading-relaxed text-muted-foreground"
           >
-            I am a .NET Backend Engineer with hands-on experience since 2023.
-            I specialize in building clean, scalable, and maintainable backend
+            I am a .NET Backend Engineer maintainable backend
             systems using ASP.NET Core, Entity Framework Core, and SQL Server.
           </motion.p>
 
