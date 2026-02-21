@@ -80,7 +80,7 @@ export default function Hero() {
               />
             </div>
             <h2 className="text-center font-display text-lg font-bold text-foreground">
-              Kamal Mohamed Saber
+              Kamal Mohammed Saber
             </h2>
             {/* Typewriter subtitle */}
             <div className="mt-1 flex h-6 items-center justify-center">
