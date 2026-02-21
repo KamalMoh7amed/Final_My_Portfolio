@@ -7,11 +7,11 @@ import { Github, Linkedin, Mail, ArrowDown } from "lucide-react"
 import MagneticButton from "./magnetic-button"
 import TiltCard from "./tilt-card"
 
-// const stats = [
-//   { value: "+5", label: "Technologies Mastered" },
-//   { value: "+2", label: "Major Projects" },
-//   { value: "2nd", label: "Place Award" },
-// ]
+const stats = [
+  { value: "+5", label: "Technologies Mastered" },
+  { value: "+2", label: "Major Projects" },
+  { value: "2nd", label: "Place Award" },
+]
 
 const roles = [".NET Backend Engineering","Deploma Full Stack IN DEPI"]
 
@@ -157,7 +157,7 @@ export default function Hero() {
           </motion.p>
 
           {/* Stats */}
-          <div className="mt-8 flex gap-8">
+          {/* <div className="mt-8 flex gap-8">
             {stats.map((stat, index) => (
               <motion.div
                 key={stat.label}
@@ -173,7 +173,7 @@ export default function Hero() {
                 </p>
               </motion.div>
             ))}
-          </div>
+          </div> */}
 
           {/* CTA Buttons */}
           <motion.div
